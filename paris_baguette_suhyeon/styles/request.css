@@ -1,0 +1,14 @@
+img{}
+main {background-color: #E6D9B7; width: 430px;}
+.top{background-color: #023586; width: 430px; display: flex; height: 48px;
+justify-content: space-between; align-items: center;}
+.top a{margin: 16px;}
+main h1{color: #023586; font-weight: 700; padding: 60px 0 32px 0; text-align: center;
+font-size: 1.25rem}
+main .detail{font-size: 0.625rem;display: flex; justify-content: space-between; margin: 16px;
+border-bottom: 1px solid #023586; padding-bottom: 25px;}
+main dl{}
+main dt{display: inline-block; height: 33px;}
+main dd{display: inline-block; width: 241px;}
+main button {background-color: #023586; color: white; width: 398px; height: 43px; 
+border-radius: 5px; font-size: 0.75rem; font-weight: 200;}

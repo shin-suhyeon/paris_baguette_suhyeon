@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게트 | 가맹점 상담신청</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+</head>
+<body>
+    <img src="./imges/Status Bar - Light.jpg" alt="">
+        <div class="top">
+            <a href="#"><img src="./imges/top_menu.png" alt="menu"></a>
+            <a href="#"><img src="./imges/top_logo.png" alt="paris baguette"></a>
+            <a href="#"><img src="./imges/top_search.png" alt="searc"></a>
+        </div>
+        <main>
+            <h1>가맹점 상담신청</h1>
+            <div class="detail">
+                <h2>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</h2>
+                <p>*항목은 필수 입력 사항입니다.</p>
+            </div>
+            <dl>
+                <dt>*이름</dt>
+                <dd><input type="text" name="name"></dd>
+                <dt>*휴대폰 번호</dt>
+                <dd><input type="number" name="phone_number"></dd>
+                <dd><input type="number" name="phone_number"></dd>
+                <dd><input type="number" name="phone_number"></dd>
+                <dt>*이메일</dt>
+                <dd><input type="email" name="email"></dd>
+                <dd>
+                    <select name="email">
+                        <option value="">google.com</option>
+                        <option value="">naver.com</option>
+                        <option value="">kakao.com</option>
+                        <option value="">hanmail.net</option>
+                        <option value="">직접 입력</option>
+                    </select>
+                </dd>
+                <dt>*창업희망지역</dt>
+                <dd><input type="text" name="Desired_area"></dd>
+                <dt>신청계기</dt>
+                <dd>
+                    <input type="radio" id="e_search" name="search" value="e_search">
+                    <label for="e_search">인터넷 검색</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="store_visit" name="store" value="store_visit">
+                    <label for="store_visit">매장 방문</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="friend_introduction" name="friend" value="friend_introduction">
+                    <label for="friend_introduction">지인 소개</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="real_estate" name="consulting" value="real_estate">
+                    <label for="real_estate">컨설팅/부동산</label>
+                </dd>
+                <dd>
+                    <input type="radio" id="etcc" name="etc" value="etcc">
+                    <label for="etcc">기타</label>
+                </dd>
+                <dt>*제목</dt>
+                <dd><input type="text" name="title"></dd>
+                <dt>*내용</dt>
+                <dd><input type="text" name="detail"></dd>
+            </dl>
+            <button type="button">상담 신청하기</button>
+        </main>
+</body>
+</html>
